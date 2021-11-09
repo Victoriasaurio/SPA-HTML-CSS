@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+@font-face {
+    font-family: "Inter-Black";
+    src: url('./font/Inter/static/Inter-Black.ttf');
+}
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url('./font/Inter/static/Inter-ExtraBold.ttf');
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url('./font/Inter/static/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url('./font/Inter/static/Inter-SemiBold.ttf');
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('./font/Inter/static/Inter-Regular.ttf');
+}
+:root {
+    --InterBlack: "Inter-Black";
+    --InterExtraBold: "Inter-ExtraBold";
+    --InterBold: "Inter-Bold";
+    --InterSemiBold: "Inter-SemiBold";
+    --InterRegular: "Inter-Regular";
+    --typeFuchsia: #D93682;
+    --typeYellow: #F2DEA0;
+}

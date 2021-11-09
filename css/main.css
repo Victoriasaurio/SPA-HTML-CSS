@@ -1,0 +1,221 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* Navbar */
+.fuchsia-linea {
+    border: 1px solid var(--typeFuchsia);
+    background: var(--typeFuchsia);
+    height: 10px;
+}
+.logos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos figure {
+    max-width: 150px;
+    max-height: 120px;
+}
+.logos figure img {
+    width: 100%;
+    height: 100%;
+}
+.options {
+    margin-bottom: 15px;
+    border: 2px solid black;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.options a {
+    display: inline-block;
+    font-family: var(--InterBold);
+    font-size: small;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+.back-image {
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/fondopiedras.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.back-image h1 {
+    margin-bottom: 5px;
+    font-family: var(--InterBold);
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.back-image p {
+    font-family: var(--InterSemiBold);
+    font-size: large;
+}
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.buttons a {
+    display: inline-block;
+    border: 1px solid var(--typeFuchsia);
+    padding: 15px;
+    font-family: var(--InterSemiBold);
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.buttons a:hover {
+    background: var(--typeFuchsia);
+}
+
+/* Section 1 */
+.part-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text {
+    width: 500px;
+}
+.title {
+    margin-bottom: 30px;
+    font-family: var(--InterExtraBold);
+    font-size: medium;
+}
+.text p {
+    line-height: 30px;
+}
+.part-01 figure {
+    max-width: 300px;
+    max-height: 250px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.part-01 figure img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+}
+.part-01 figure:hover img {
+    filter: grayscale(100%);
+}
+
+/* Section 2 */
+.part-02 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subpart-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subpart-02 figure {
+    max-width: 400px;
+    max-height: 330px;
+    transition: all 0.5s;
+    filter: grayscale(0%);
+}
+.subpart-02 figure img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.subpart-02 figure:hover img {
+    filter: grayscale(100%);
+}
+.subpart-02 section {
+    margin-left: 30px;
+}
+.sec-article {
+    margin: 10px 0;
+}
+
+/* Section 03 */
+.part-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.card-info {
+    border-radius: 10px;
+    background: var(--typeYellow);
+    padding: 10px;
+    max-width: 300px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.card-info figure {
+    max-width: 150px;
+    max-height: 150px;
+}
+.card-info figure img {
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.card-info h1 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-family: var(--InterBold);
+    font-size: medium;
+}
+.card-info p {
+    font-family: var(--InterRegular);
+    font-size: small;
+    line-height: 20px;
+    text-align: justify;
+}
+.card-info a {
+    border: 1px solid var(--typeFuchsia);
+    background: var(--typeFuchsia);
+    margin-top: 35px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.card-info a:hover {
+    background: var(--typeYellow);
+    color: var(--typeFuchsia);
+}
+
+/* Footer */
+.footer-spa {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-spa figure {
+    margin-top: 20px;
+}
+.linea-down {
+    margin-top: 32px;
+    width: 950px;
+    height: 15px;
+    background: var(--typeFuchsia);
+}
